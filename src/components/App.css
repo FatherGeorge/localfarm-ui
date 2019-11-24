@@ -1,5 +1,18 @@
+nav {
+	height: 75px;
+}
 .col {
 	float: left;
     box-sizing: border-box;
 	min-height: 1px;
 }
+
+.right li {
+	float: right;
+	display:block;
+}
+.right li:after {
+	clear:both;
+}
+
+
