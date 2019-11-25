@@ -16,7 +16,8 @@ function App() {
       </div>
       <div className="Search">
       	<div id="left-col" className="col" style={{"width": "34%"}}>
-      		Left
+      		<input />
+      		<button>Search</button>
       	</div>
       	<div id="right-col" className="col" style={{"width": "65%"}}>
       		Right
