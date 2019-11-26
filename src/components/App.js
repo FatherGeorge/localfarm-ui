@@ -8,15 +8,19 @@ function App() {
       <div className="Header">
       	<nav>
 	      	<ul className="right">
-	      		<li>Donate</li>
-	      		<li>Blog</li>
-	      		<li>Find farm</li>
+	      		<li><a href="#">Donate</a></li>
+	      		<li><a href="#">Blog</a></li>
+	      		<li><a href="#">Find farm</a></li>
 	      	</ul>
 	    </nav>
       </div>
       <div className="Search">
       	<div id="left-col" className="col" style={{"width": "34%"}}>
-      		<input />
+      		<label for="country"></label>
+      		<select name="country">
+      			<option value="USA">USA</option>	
+      			<option value="Russia">Russia</option>	
+      		</select>
       		<button>Search</button>
       	</div>
       	<div id="right-col" className="col" style={{"width": "65%"}}>
